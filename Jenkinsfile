@@ -3,7 +3,7 @@ pipeline {
   tools {
     jdk 'Java17'
     maven 'Maven3'
-    git 'Default-Git'
+    Git 'Default-Git'
   }
   stages{
     stage("Cleanup Workspace"){
